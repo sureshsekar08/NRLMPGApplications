@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-12T14:31:29 IST" name="Default suite" finished-at="2022-08-12T14:31:44 IST" duration-ms="14721">
+  <suite started-at="2022-08-17T16:48:15 IST" name="Default suite" finished-at="2022-08-17T16:48:27 IST" duration-ms="11827">
     <groups>
     </groups>
-    <test started-at="2022-08-12T14:31:29 IST" name="Default test" finished-at="2022-08-12T14:31:44 IST" duration-ms="14721">
+    <test started-at="2022-08-17T16:48:15 IST" name="Default test" finished-at="2022-08-17T16:48:27 IST" duration-ms="11827">
       <class name="Flexicode.NewPGApplication.loginpage">
-        <test-method signature="basepagenavigation()[pri:0, instance:Flexicode.NewPGApplication.loginpage@245b4bdc]" started-at="2022-08-12T14:31:29 IST" name="basepagenavigation" finished-at="2022-08-12T14:31:43 IST" duration-ms="14489" status="PASS">
+        <test-method signature="basepagenavigation()[pri:0, instance:Flexicode.NewPGApplication.loginpage@6c64cb25]" started-at="2022-08-17T16:48:15 IST" name="basepagenavigation" finished-at="2022-08-17T16:48:27 IST" duration-ms="11749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepagenavigation -->

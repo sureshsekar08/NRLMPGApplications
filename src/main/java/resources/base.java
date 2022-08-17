@@ -18,7 +18,7 @@ public class base {
 
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\admin\\eclipse-workspace\\NewPGApplication\\src\\main\\java\\resources\\data.properties");
+				"C:\\Users\\Arul\\eclipse-workspace\\NRLMPGApplications\\src\\main\\java\\resources\\data.properties");
 
 		prop.load(fis);
 
@@ -26,7 +26,7 @@ public class base {
 
 		if (browserName.equals("chrome")) {
 			// chrome driver
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\libs\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "E:\\Uma\\seleniumdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
 
 		} else if (browserName.equals("firefox")) {
@@ -34,6 +34,7 @@ public class base {
 			// firefox driver
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\admin\\libs\\geckodriver");
 			driver = new FirefoxDriver();
+			System.out.println("Code Push");
 
 		}
 
