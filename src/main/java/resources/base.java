@@ -10,20 +10,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class base {
 
 	public WebDriver driver;
+	public Properties  prop;
 
 	public WebDriver initializeDriver() throws IOException {
 
-		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream(
-				
-				//Uma - data.properties file location
-				//"C:\\Users\\Arul\\eclipse-workspace\\NRLMPGApplications\\src\\main\\java\\resources\\data.properties");
-				
-				//suresh - data.properties file location
-				"C:\\Users\\admin\\eclipse-workspace\\NewPGApplication\\src\\main\\java\\resources\\data.properties");
+	    prop = new Properties();
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
 		
 		prop.load(fis);
 
@@ -35,8 +32,8 @@ public class base {
 			//System.setProperty("webdriver.chrome.driver", "E:\\Uma\\seleniumdriver\\chromedriver.exe");
 			
 			//suresh - chrome driver location
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\libs\\chromedriver.exe");
-			
+			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\libs\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 
 		} else if (browserName.equals("firefox")) {
