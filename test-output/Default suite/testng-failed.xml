@@ -5,7 +5,8 @@
     <classes>
       <class name="Flexicode.NewPGApplication.loginpage">
         <methods>
-          <include name="basepagenavigation" invocation-numbers="0 1 2 3"/>
+          <include name="launchapplication"/>
+          <include name="basepagenavigation" invocation-numbers="0"/>
         </methods>
       </class> <!-- Flexicode.NewPGApplication.loginpage -->
     </classes>

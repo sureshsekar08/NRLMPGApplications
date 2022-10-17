@@ -2,84 +2,72 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-30T17:22:29 IST" name="Suite" finished-at="2022-08-30T17:22:41 IST" duration-ms="12693">
+  <suite started-at="2022-10-17T15:29:56 IST" name="Default suite" finished-at="2022-10-17T15:30:59 IST" duration-ms="62972">
     <groups>
     </groups>
-    <test started-at="2022-08-30T17:22:29 IST" name="Test" finished-at="2022-08-30T17:22:41 IST" duration-ms="12693">
+    <test started-at="2022-10-17T15:29:56 IST" name="Default test" finished-at="2022-10-17T15:30:59 IST" duration-ms="62972">
       <class name="Flexicode.NewPGApplication.loginpage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Flexicode.NewPGApplication.loginpage@78691363]" started-at="2022-08-30T17:22:29 IST" name="initialize" finished-at="2022-08-30T17:22:38 IST" duration-ms="9476" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:Flexicode.NewPGApplication.loginpage@128d2484]" started-at="2022-10-17T15:29:57 IST" name="launchapplication" finished-at="2022-10-17T15:30:15 IST" duration-ms="18020" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Flexicode.NewPGApplication.loginpage@78691363]" started-at="2022-08-30T17:22:38 IST" name="basepagenavigation" data-provider="getData" finished-at="2022-08-30T17:22:40 IST" duration-ms="1593" status="PASS">
+        </test-method> <!-- launchapplication -->
+        <test-method signature="basepagenavigation(java.util.HashMap)[pri:0, instance:Flexicode.NewPGApplication.loginpage@128d2484]" started-at="2022-10-17T15:30:15 IST" name="basepagenavigation" data-provider="getData" finished-at="2022-10-17T15:30:17 IST" duration-ms="2145" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Emp7788]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@4567]]>
+                <![CDATA[{usernameUN=Emp778811, PasswordPWD=123@4567}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepagenavigation -->
-        <test-method signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Flexicode.NewPGApplication.loginpage@78691363]" started-at="2022-08-30T17:22:40 IST" name="basepagenavigation" data-provider="getData" finished-at="2022-08-30T17:22:40 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:Flexicode.NewPGApplication.loginpage@128d2484]" started-at="2022-10-17T15:30:17 IST" name="launchapplication" finished-at="2022-10-17T15:30:28 IST" duration-ms="11181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="basepagenavigation(java.util.HashMap)[pri:0, instance:Flexicode.NewPGApplication.loginpage@128d2484]" started-at="2022-10-17T15:30:28 IST" name="basepagenavigation" data-provider="getData" finished-at="2022-10-17T15:30:31 IST" duration-ms="2345" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Emp10108]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234567]]>
+                <![CDATA[{usernameUN=Emp1010822, PasswordPWD=1234567}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepagenavigation -->
-        <test-method signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Flexicode.NewPGApplication.loginpage@78691363]" started-at="2022-08-30T17:22:40 IST" name="basepagenavigation" data-provider="getData" finished-at="2022-08-30T17:22:40 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:Flexicode.NewPGApplication.loginpage@128d2484]" started-at="2022-10-17T15:30:31 IST" name="launchapplication" finished-at="2022-10-17T15:30:41 IST" duration-ms="10668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="basepagenavigation(java.util.HashMap)[pri:0, instance:Flexicode.NewPGApplication.loginpage@128d2484]" started-at="2022-10-17T15:30:41 IST" name="basepagenavigation" data-provider="getData" finished-at="2022-10-17T15:30:44 IST" duration-ms="2228" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Emp123444]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1235678]]>
+                <![CDATA[{usernameUN=Emp12344433, PasswordPWD=1235678}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepagenavigation -->
-        <test-method signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Flexicode.NewPGApplication.loginpage@78691363]" started-at="2022-08-30T17:22:40 IST" name="basepagenavigation" data-provider="getData" finished-at="2022-08-30T17:22:41 IST" duration-ms="682" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:Flexicode.NewPGApplication.loginpage@128d2484]" started-at="2022-10-17T15:30:44 IST" name="launchapplication" finished-at="2022-10-17T15:30:55 IST" duration-ms="11375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="basepagenavigation(java.util.HashMap)[pri:0, instance:Flexicode.NewPGApplication.loginpage@128d2484]" started-at="2022-10-17T15:30:55 IST" name="basepagenavigation" data-provider="getData" finished-at="2022-10-17T15:30:59 IST" duration-ms="4285" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Emp10108]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@4567]]>
+                <![CDATA[{usernameUN=Emp1010844, PasswordPWD=123@4567}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepagenavigation -->
-        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:Flexicode.NewPGApplication.loginpage@78691363]" started-at="2022-08-30T17:22:41 IST" name="quitbrowser" finished-at="2022-08-30T17:22:41 IST" duration-ms="377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitbrowser -->
       </class> <!-- Flexicode.NewPGApplication.loginpage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
