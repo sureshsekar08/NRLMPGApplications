@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>NewPGApplication</name>
-	<url>http://www.example.com</url>
+	<!--<url>http://www.example.com</url>-->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -79,8 +79,12 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
-
-
+	
+		<dependency>
+  			<groupId>org.slf4j</groupId>
+  			<artifactId>slf4j-simple</artifactId>
+  			<version>1.7.21</version>
+		</dependency>
 	</dependencies>
 
 	<profiles>
