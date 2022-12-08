@@ -17,6 +17,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -45,6 +46,7 @@ public class loginpage extends base {
 //	public void quitbrowser() {
 //		driver.close();
 //	}
+	  
 
 	@Test(dataProvider = "getData")
 	public void basepagenavigation(HashMap<String, String> input) throws IOException {
@@ -52,14 +54,19 @@ public class loginpage extends base {
 		//login credentials- method calling from Pageobject
 		LOGINPAGE.loginApplication(input.get("usernameUN"), input.get("PasswordPWD"));
 		
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//		wait.until(ExpectedConditions.elementToBeClickable(By.id("btnLogin")));
+		   // WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		
+			//wait.until(ExpectedConditions.invisibilityOf(loader));
+			
 		
 		//Login Button
 		//LOGINPAGE.loginbutton();
 		
 
 	}
+	
+	
+	
 
 	
 	@DataProvider
